@@ -72,7 +72,7 @@ function App() {
           </div>
 
           <div className="result" style={{'textAlign':'center'}}>
-            <h1>{ result !== '' ? `Your BMI is ${result.toFixed(2)} you are ${bodyType}.` : '' }</h1>
+            <h1>{ result !== 0 ? `Your BMI is ${result.toFixed(2)} you are ${bodyType}.` : '' }</h1>
           </div>
         </>
   );
